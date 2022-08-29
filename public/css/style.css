@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat:wght@200&display=swap');
+
+
+/* ;
+ */
+body {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 30px;
+}
+
+.links{
+    text-decoration: none;
+    background-image: linear-gradient(#D59096, #D59096 );
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: .2s;
+}
+
+.links:hover, .links:focus {
+    background-size: 100% 2px;
+    transition: .3s;
+}
+
+.inicio{
+    background-image: url("/img/inicio1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.cardedit{
+    border-bottom: 5px solid #D59096 ; 
+}
